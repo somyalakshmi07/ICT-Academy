@@ -1,0 +1,16 @@
+body{
+    background-color: #EBF4DD;
+}
+nav{
+    background-color: #5A7863;
+    height: 50px;
+}
+nav a{
+    color:white;
+    ;
+}
+nav li{
+    text-align: right;
+    padding:10px;
+    padding-right: 10px;
+}
