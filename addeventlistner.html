@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Example of the addEventLister() method.</p>
+    <p>Click the following button to see the effect.</p>
+    <button id="btn">Click me</button>
+    <p id="para"></p>
+
+    <script>
+        document.getElementById("btn").addEventListener("click",fun);
+        function fun(){
+            // document.getElementById("para").innerHTML="Hello Everyone "+"<br>"+"Welcome to BITM!!!!";
+            window.open("alert.html","_blank");
+        }
+    </script>
+    
+</body>
+</html>

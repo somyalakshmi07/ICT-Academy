@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul.a{
+            list-style-type: circle;
+        }
+        ul.b{
+            list-style-type: square;
+        }
+        ol.c{
+            list-style-type: upper-roman;
+        }
+        ol.d{
+            list-style-type: lower-alpha;
+        }
+        .b1{
+            list-style-position: outside;
+        }
+        .b2{
+            list-style-position: inside;
+        }
+        td,th{
+            border: 4px solid;
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            
+        }
+        table{
+            border-collapse: collapse;
+            width: 50%;
+            height: 100%;
+        }
+        tr:hover{
+            background-color:coral;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">This list-style-type Property</h1>
+    <p>Example of unordered list:</p>
+    <ul class="a">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <ul class="b">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <p>Example of ordered list:</p> 
+    <ol class="c">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <ol class="d">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <h1 style="text-align: center;color: green;">CSS list-style-position Property</h1>
+    <h3>list-style-position: outside</h3>
+    <ul class="b1">
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Banana</li>
+    </ul>
+    <h3>list-style-position: inside</h3>
+    <ul class="b2">
+        <li>circle</li>
+        <li>square</li>
+        <li>Rectangle</li>
+    </ul>
+    <h1>Let the table borders collapse</h1>
+    <table>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+        </tr>
+        <tr>
+            <td>Peter</td>
+            <td>Paul</td>
+        </tr>
+        <tr>
+            <td>Paul</td>
+            <td>Peter</td>
+        </tr>
+    </table>
+    <h1>Table</h1>
+    <p>Move the mouse over the table rows</p>
+    <table>
+        <tr>
+            <th>First name</th>
+            <th>Lastname</th>
+            <th>Points</th>
+        </tr>
+        <tr>
+            <td>Peter</td>
+            <td>Paul</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Ram</td>
+            <td>Lakshman</td>
+            <td>150</td>
+        </tr>
+        <tr>
+            <td>Jack</td>
+            <td>Jill</td>
+            <td>300</td>
+        </tr>
+    </table>
+</body>
+</html>
